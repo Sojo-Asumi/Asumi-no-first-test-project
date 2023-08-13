@@ -1,0 +1,55 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css);
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Caprasimo&family=IBM+Plex+Sans:wght@400;700&family=Padauk:wght@400;700&display=swap');
+
+:root{
+    --B-font: 'IBM Plex Sans', sans-serif;
+    --D-font: 'Abril Fatface', cursive;
+    --T-font: 'Abril Fatface', cursive;
+    --B-size: 16px;
+    --D-size: 50px;
+    --T-size: 30px;
+    --sT-size: 20px;
+}
+
+*{
+    font-family: var(--B-font);
+    font-size: var(--B-size);
+}
+
+h1{
+    font-family: var(--D-font);
+    font-size: var(--D-size);
+    /* text-align: center; */
+    margin: 0%;
+    display: inline-block;
+}
+
+.headerBox{
+    border: solid 1px black;
+    /* box-shadow: 0 0 5px; */
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    margin: 0%;
+}
+
+.nav-box{
+    /* border-top: 1px solid black; */
+    height: 30px;
+    display: inline-block;
+}
+.nav-btn{
+    background-color: transparent;
+    margin-left: 15px;
+    padding: 0%;
+    border: 0;
+    box-sizing: border-box;
+    font-family: var(--T-font);
+}
+
+.nav-btn:hover{
+    border-top: 2px solid black;
+}
